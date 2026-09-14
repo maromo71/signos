@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "signo": "Aquário",
+    "imagem": "https://www.zodiacsign.com/images/aquarius.jpg",
+    "dataInicio": "20/01",
+    "dataFim": "18/02"
+  },
+  {
+    "id": 2,
+    "signo": "Peixes",
+    "imagem": "https://www.zodiacsign.com/images/pisces.jpg",
+    "dataInicio": "19/02",
+    "dataFim": "20/03"
+  },
+  {
+    "id": 3,
+    "signo": "Áries",
+    "imagem": "https://www.zodiacsign.com/images/aries.jpg",
+    "dataInicio": "21/03",
+    "dataFim": "19/04"
+  },
+  {
+    "id": 4,
+    "signo": "Touro",
+    "imagem": "https://www.zodiacsign.com/images/taurus.jpg",
+    "dataInicio": "20/04",
+    "dataFim": "20/05"
+  },
+  {
+    "id": 5,
+    "signo": "Gêmeos",
+    "imagem": "https://www.zodiacsign.com/images/gemini.jpg",
+    "dataInicio": "21/05",
+    "dataFim": "20/06"
+  },
+  {
+    "id": 6,
+    "signo": "Câncer",
+    "imagem": "https://www.zodiacsign.com/images/cancer.jpg",
+    "dataInicio": "21/06",
+    "dataFim": "22/07"
+  },
+  {
+    "id": 7,
+    "signo": "Leão",
+    "imagem": "https://www.zodiacsign.com/images/leo.jpg",
+    "dataInicio": "23/07",
+    "dataFim": "22/08"
+  },
+  {
+    "id": 8,
+    "signo": "Virgem",
+    "imagem": "https://www.zodiacsign.com/images/virgo.jpg",
+    "dataInicio": "23/08",
+    "dataFim": "22/09"
+  },
+  {
+    "id": 9,
+    "signo": "Libra",
+    "imagem": "https://www.zodiacsign.com/images/libra.jpg",
+    "dataInicio": "23/09",
+    "dataFim": "22/10"
+  },
+  {
+    "id": 10,
+    "signo": "Escorpião",
+    "imagem": "https://www.zodiacsign.com/images/scorpio.jpg",
+    "dataInicio": "23/10",
+    "dataFim": "21/11"
+  },
+  {
+    "id": 11,
+    "signo": "Sagitário",
+    "imagem": "https://www.zodiacsign.com/images/sagitarius.jpg",
+    "dataInicio": "22/11",
+    "dataFim": "21/12"
+  },
+  {
+    "id": 12,
+    "signo": "Capricórnio",
+    "imagem": "https://www.zodiacsign.com/images/pisces.jpg",
+    "dataInicio": "22/12",
+    "dataFim": "19/01"
+  }
+]
