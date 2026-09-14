@@ -1,0 +1,115 @@
+/* Reset básico e tipografia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  /* Fundo espacial escuro com gradiente radial sutil */
+  background: radial-gradient(circle at 50% 10%, #0f172a 0%, #080d19 60%, #030712 100%);
+  color: #f1f5f9;
+}
+
+/* Container principal da aplicação */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Título principal com brilho/glow */
+.App h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  text-align: center;
+  /* Gradiente no texto */
+  background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 20px rgba(56, 189, 248, 0.25);
+}
+
+/* Grade responsiva que envolve os cards */
+.signos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  max-width: 1100px;
+  width: 100%;
+}
+
+/* Card individual (Glassmorphism + Efeito flutuante) */
+.signo-card {
+  background: rgba(30, 41, 59, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px 20px;
+  width: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4),
+              inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Efeito ao passar o mouse sobre o card */
+.signo-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(56, 189, 248, 0.45);
+  box-shadow: 0 20px 35px -5px rgba(14, 165, 233, 0.25),
+              0 0 15px rgba(56, 189, 248, 0.15);
+}
+
+/* Título do signo */
+.signo-card h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Imagem / Ilustração do signo */
+.signo-card img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.signo-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Intervalo de datas */
+.signo-card p {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #94a3b8;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: inline-block;
+}
